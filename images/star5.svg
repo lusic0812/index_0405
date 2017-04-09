@@ -1,0 +1,81 @@
+<svg id="_5" data-name="5" xmlns="http://www.w3.org/2000/svg" width="99" height="19" viewBox="0 0 99 19">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #ffe000;
+      }
+
+      .cls-1, .cls-2, .cls-3 {
+        fill-rule: evenodd;
+      }
+
+      .cls-2 {
+        fill: #cb9931;
+      }
+
+      .cls-3 {
+        fill: #e0ad37;
+      }
+    </style>
+  </defs>
+  <g id="star">
+    <path id="形狀_2" data-name="形狀 2" class="cls-1" d="M19,7.37H11.742l-2.25,3.185Z"/>
+    <path id="形狀_3" data-name="形狀 3" class="cls-2" d="M9.491,10.365l3.637,1.192L19,7.265l-9.514,3.1h0Z"/>
+    <path id="形狀_4" data-name="形狀 4" class="cls-1" d="M9.548,10.569h0L15.793,19,13.412,11.8Z"/>
+    <path id="形狀_5" data-name="形狀 5" class="cls-2" d="M9.548,14.547L15.793,19,9.548,10.569v3.978Z"/>
+    <path id="形狀_6" data-name="形狀 6" class="cls-3" d="M3.323,19l6.245-4.449V10.569Z"/>
+    <path id="形狀_7" data-name="形狀 7" class="cls-1" d="M9.568,10.569L5.714,11.8,3.323,19l6.245-8.426h0Z"/>
+    <path id="形狀_8" data-name="形狀 8" class="cls-2" d="M9.7,10.365l-9.512-3.1,5.882,4.292L9.7,10.365h0Z"/>
+    <path id="形狀_9" data-name="形狀 9" class="cls-3" d="M7.268,7.222H0l9.512,3.185Z"/>
+    <path id="形狀_1" data-name="形狀 1" class="cls-3" d="M9.395,0V10.506l2.214-3.243Z"/>
+    <path id="形狀_1_拷貝" data-name="形狀 1 拷貝" class="cls-1" d="M9.346,0V10.42L7.273,7.2Z"/>
+  </g>
+  <g id="star-2" data-name="star">
+    <path id="形狀_2-2" data-name="形狀 2" class="cls-1" d="M39,7.37H31.742l-2.25,3.185Z"/>
+    <path id="形狀_3-2" data-name="形狀 3" class="cls-2" d="M29.491,10.365l3.637,1.192L39,7.265l-9.514,3.1h0Z"/>
+    <path id="形狀_4-2" data-name="形狀 4" class="cls-1" d="M29.548,10.569h0L35.793,19,33.412,11.8Z"/>
+    <path id="形狀_5-2" data-name="形狀 5" class="cls-2" d="M29.548,14.547L35.793,19l-6.245-8.426v3.978Z"/>
+    <path id="形狀_6-2" data-name="形狀 6" class="cls-3" d="M23.323,19l6.245-4.449V10.569Z"/>
+    <path id="形狀_7-2" data-name="形狀 7" class="cls-1" d="M29.568,10.569L25.714,11.8,23.323,19l6.245-8.426h0Z"/>
+    <path id="形狀_8-2" data-name="形狀 8" class="cls-2" d="M29.7,10.365l-9.512-3.1,5.882,4.292,3.63-1.192h0Z"/>
+    <path id="形狀_9-2" data-name="形狀 9" class="cls-3" d="M27.268,7.222H20l9.512,3.185Z"/>
+    <path id="形狀_1-2" data-name="形狀 1" class="cls-3" d="M29.395,0V10.506l2.214-3.243Z"/>
+    <path id="形狀_1_拷貝-2" data-name="形狀 1 拷貝" class="cls-1" d="M29.346,0V10.42L27.273,7.2Z"/>
+  </g>
+  <g id="star-3" data-name="star">
+    <path id="形狀_2-3" data-name="形狀 2" class="cls-1" d="M59,7.37H51.742l-2.25,3.185Z"/>
+    <path id="形狀_3-3" data-name="形狀 3" class="cls-2" d="M49.491,10.365l3.637,1.192L59,7.265l-9.514,3.1h0Z"/>
+    <path id="形狀_4-3" data-name="形狀 4" class="cls-1" d="M49.548,10.569h0L55.793,19,53.412,11.8Z"/>
+    <path id="形狀_5-3" data-name="形狀 5" class="cls-2" d="M49.548,14.547L55.793,19l-6.245-8.426v3.978Z"/>
+    <path id="形狀_6-3" data-name="形狀 6" class="cls-3" d="M43.323,19l6.245-4.449V10.569Z"/>
+    <path id="形狀_7-3" data-name="形狀 7" class="cls-1" d="M49.568,10.569L45.714,11.8,43.323,19l6.245-8.426h0Z"/>
+    <path id="形狀_8-3" data-name="形狀 8" class="cls-2" d="M49.7,10.365l-9.512-3.1,5.882,4.292,3.63-1.192h0Z"/>
+    <path id="形狀_9-3" data-name="形狀 9" class="cls-3" d="M47.268,7.222H40l9.512,3.185Z"/>
+    <path id="形狀_1-3" data-name="形狀 1" class="cls-3" d="M49.395,0V10.506l2.214-3.243Z"/>
+    <path id="形狀_1_拷貝-3" data-name="形狀 1 拷貝" class="cls-1" d="M49.346,0V10.42L47.273,7.2Z"/>
+  </g>
+  <g id="star-4" data-name="star">
+    <path id="形狀_2-4" data-name="形狀 2" class="cls-1" d="M79,7.37H71.742l-2.25,3.185Z"/>
+    <path id="形狀_3-4" data-name="形狀 3" class="cls-2" d="M69.491,10.365l3.637,1.192L79,7.265l-9.514,3.1h0Z"/>
+    <path id="形狀_4-4" data-name="形狀 4" class="cls-1" d="M69.548,10.569h0L75.793,19,73.412,11.8Z"/>
+    <path id="形狀_5-4" data-name="形狀 5" class="cls-2" d="M69.548,14.547L75.793,19l-6.245-8.426v3.978Z"/>
+    <path id="形狀_6-4" data-name="形狀 6" class="cls-3" d="M63.323,19l6.245-4.449V10.569Z"/>
+    <path id="形狀_7-4" data-name="形狀 7" class="cls-1" d="M69.568,10.569L65.714,11.8,63.323,19l6.245-8.426h0Z"/>
+    <path id="形狀_8-4" data-name="形狀 8" class="cls-2" d="M69.7,10.365l-9.512-3.1,5.882,4.292,3.63-1.192h0Z"/>
+    <path id="形狀_9-4" data-name="形狀 9" class="cls-3" d="M67.268,7.222H60l9.512,3.185Z"/>
+    <path id="形狀_1-4" data-name="形狀 1" class="cls-3" d="M69.395,0V10.506l2.214-3.243Z"/>
+    <path id="形狀_1_拷貝-4" data-name="形狀 1 拷貝" class="cls-1" d="M69.346,0V10.42L67.273,7.2Z"/>
+  </g>
+  <g id="star-5" data-name="star">
+    <path id="形狀_2-5" data-name="形狀 2" class="cls-1" d="M99,7.37H91.742l-2.25,3.185Z"/>
+    <path id="形狀_3-5" data-name="形狀 3" class="cls-2" d="M89.491,10.365l3.637,1.192L99,7.265l-9.514,3.1h0Z"/>
+    <path id="形狀_4-5" data-name="形狀 4" class="cls-1" d="M89.548,10.569h0L95.793,19,93.412,11.8Z"/>
+    <path id="形狀_5-5" data-name="形狀 5" class="cls-2" d="M89.548,14.547L95.793,19l-6.245-8.426v3.978Z"/>
+    <path id="形狀_6-5" data-name="形狀 6" class="cls-3" d="M83.323,19l6.245-4.449V10.569Z"/>
+    <path id="形狀_7-5" data-name="形狀 7" class="cls-1" d="M89.568,10.569L85.714,11.8,83.323,19l6.245-8.426h0Z"/>
+    <path id="形狀_8-5" data-name="形狀 8" class="cls-2" d="M89.7,10.365l-9.512-3.1,5.882,4.292,3.63-1.192h0Z"/>
+    <path id="形狀_9-5" data-name="形狀 9" class="cls-3" d="M87.268,7.222H80l9.512,3.185Z"/>
+    <path id="形狀_1-5" data-name="形狀 1" class="cls-3" d="M89.395,0V10.506l2.214-3.243Z"/>
+    <path id="形狀_1_拷貝-5" data-name="形狀 1 拷貝" class="cls-1" d="M89.346,0V10.42L87.273,7.2Z"/>
+  </g>
+</svg>

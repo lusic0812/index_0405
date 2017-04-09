@@ -1,0 +1,469 @@
+/* line 10, ../sass/style-j.scss */
+.buyBOX,
+.scroeBOX {
+  display: -webkit-flex;
+  -webkit-align-items: flex-start;
+  -webkit-justify-content: center;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+/* line 15, ../sass/style-j.scss */
+.infoBOX {
+  display: -webkit-flex;
+  -webkit-align-content: flex-start;
+  -webkit-justify-content: center;
+  display: flex;
+  align-content: flex-start;
+  justify-content: center;
+}
+
+/* line 19, ../sass/style-j.scss */
+.exp {
+  display: -webkit-flex;
+  -webkit-align-content: flex-start;
+  -webkit-justify-content: flex-start;
+  display: flex;
+  align-content: flex-start;
+  justify-content: flex-start;
+}
+
+/* line 24, ../sass/style-j.scss */
+.scroeBOX .right .name {
+  display: -webkit-flex;
+  -webkit-align-items: center;
+  -webkit-justify-content: flex-start;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+/* line 29, ../sass/style-j.scss */
+.title-contry {
+  display: -webkit-flex;
+  -webkit-align-items: center;
+  -webkit-justify-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* line 39, ../sass/style-j.scss */
+html,
+body {
+  font-size: 16px;
+  width: 100%;
+  height: 100%;
+  min-height: 100%;
+  font-family: 'Microsoft JhengHei', sans-serif;
+  line-height: 1.5;
+  overflow-x: hidden;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+/* line 52, ../sass/style-j.scss */
+*,
+:after,
+:before {
+  box-sizing: inherit;
+}
+
+/* line 58, ../sass/style-j.scss */
+.recommendbox {
+  max-width: 1000px;
+  max-width: 62.5rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* line 12, ../../../.rvm/gems/ruby-2.2.0/gems/susy-2.2.12/sass/susy/output/support/_clearfix.scss */
+.recommendbox:after {
+  content: " ";
+  display: block;
+  clear: both;
+}
+
+/* line 63, ../sass/style-j.scss */
+.title-contry {
+  background: #321212;
+  height: 80px;
+  margin-bottom: 20px;
+}
+/* line 68, ../sass/style-j.scss */
+.title-contry + img {
+  width: 100%;
+  display: block;
+}
+
+/* line 73, ../sass/style-j.scss */
+.title-contry > img {
+  width: 100%;
+}
+
+/* line 77, ../sass/style-j.scss */
+.BOX,
+.titleBLOCK {
+  max-width: 1000px;
+  max-width: 62.5rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* line 12, ../../../.rvm/gems/ruby-2.2.0/gems/susy-2.2.12/sass/susy/output/support/_clearfix.scss */
+.BOX:after,
+.titleBLOCK:after {
+  content: " ";
+  display: block;
+  clear: both;
+}
+
+/* line 82, ../sass/style-j.scss */
+.ROW {
+  overflow: hidden;
+  padding: 20px 50px;
+}
+@media (max-width: 768px) {
+  /* line 82, ../sass/style-j.scss */
+  .ROW {
+    padding: 20px 15px 0;
+  }
+}
+/* line 88, ../sass/style-j.scss */
+.ROW .product {
+  width: calc(100% / 4 - (20px * 3) / 4);
+  min-height: 410px;
+}
+/* line 91, ../sass/style-j.scss */
+.ROW .product:nth-child(2), .ROW .product:nth-child(3), .ROW .product:nth-child(4) {
+  margin-left: 20px;
+}
+@media (max-width: 768px) {
+  /* line 88, ../sass/style-j.scss */
+  .ROW .product {
+    width: 50%;
+    float: left;
+    box-sizing: border-box;
+    padding: 0 5px;
+    min-height: inherit;
+  }
+  /* line 99, ../sass/style-j.scss */
+  .ROW .product:nth-child(2), .ROW .product:nth-child(3), .ROW .product:nth-child(4) {
+    margin-left: 0px;
+  }
+}
+@media (max-width: 320px) {
+  /* line 88, ../sass/style-j.scss */
+  .ROW .product {
+    width: 100%;
+    float: left;
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+/* line 116, ../sass/style-j.scss */
+.ROW .product img {
+  width: 100%;
+  display: block;
+}
+
+/* line 123, ../sass/style-j.scss */
+.winename-ch {
+  color: #000;
+  font-size: 0.9375rem;
+  margin-top: 10px;
+  min-height: 40px;
+}
+@media (max-width: 320px) {
+  /* line 123, ../sass/style-j.scss */
+  .winename-ch {
+    min-height: inherit;
+  }
+}
+
+/* line 134, ../sass/style-j.scss */
+.winename-e {
+  color: #999;
+  font-size: 0.75rem;
+  min-height: 55px;
+}
+@media (max-width: 320px) {
+  /* line 134, ../sass/style-j.scss */
+  .winename-e {
+    min-height: inherit;
+    margin-bottom: 20px;
+  }
+}
+
+/* line 146, ../sass/style-j.scss */
+.namech {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+/* line 151, ../sass/style-j.scss */
+.namee {
+  font-size: 0.75rem;
+  color: #999999;
+}
+
+/* line 156, ../sass/style-j.scss */
+.left {
+  width: 50%;
+  float: left;
+  overflow: hidden;
+}
+
+/* line 161, ../sass/style-j.scss */
+.right {
+  width: 50%;
+  float: left;
+  overflow: hidden;
+}
+
+/* line 171, ../sass/style-j.scss */
+.infoBOX {
+  overflow: hidden;
+}
+@media (max-width: 768px) {
+  /* line 171, ../sass/style-j.scss */
+  .infoBOX {
+    display: inherit;
+  }
+}
+
+/* line 179, ../sass/style-j.scss */
+.scroeBOX {
+  overflow: hidden;
+}
+/* line 181, ../sass/style-j.scss */
+.scroeBOX:last-child {
+  border-bottom: 1px solid #ccc;
+}
+@media (max-width: 768px) {
+  /* line 179, ../sass/style-j.scss */
+  .scroeBOX {
+    display: inherit;
+    border-bottom: none;
+  }
+}
+/* line 188, ../sass/style-j.scss */
+.scroeBOX .left {
+  width: 16.66667%;
+  float: left;
+  overflow: hidden;
+  padding-right: 15px;
+}
+@media (max-width: 768px) {
+  /* line 188, ../sass/style-j.scss */
+  .scroeBOX .left {
+    width: 29.16667%;
+    float: left;
+    max-width: 100%;
+    padding-right: 0px;
+  }
+}
+/* line 198, ../sass/style-j.scss */
+.scroeBOX .right {
+  width: 83.33333%;
+  float: left;
+  overflow: hidden;
+}
+@media (max-width: 768px) {
+  /* line 198, ../sass/style-j.scss */
+  .scroeBOX .right {
+    width: 66.66667%;
+    float: left;
+    padding-left: 10px;
+  }
+}
+/* line 205, ../sass/style-j.scss */
+.scroeBOX .right .text {
+  color: #666;
+  font-size: 0.75rem;
+}
+/* line 209, ../sass/style-j.scss */
+.scroeBOX .right .name {
+  color: #000;
+  font-size: 0.9375rem;
+}
+
+/* line 227, ../sass/style-j.scss */
+.infoBOX {
+  margin: 10px 0 10px;
+  padding: 15px 0 10px;
+  overflow: hidden;
+  border-top: 1px solid #ccc;
+}
+/* line 233, ../sass/style-j.scss */
+.infoBOX .left {
+  width: 66.66667%;
+  float: left;
+  overflow: hidden;
+  padding-right: 10px;
+}
+@media (max-width: 768px) {
+  /* line 233, ../sass/style-j.scss */
+  .infoBOX .left {
+    width: 100%;
+    float: left;
+    margin-left: 0;
+    margin-right: 0;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+    padding-right: 0px;
+  }
+}
+/* line 243, ../sass/style-j.scss */
+.infoBOX .left p {
+  color: #666;
+  font-size: 0.8125rem;
+  line-height: 1.8;
+}
+/* line 249, ../sass/style-j.scss */
+.infoBOX .right {
+  width: 33.33333%;
+  float: left;
+  overflow: hidden;
+  overflow: hidden;
+}
+@media (max-width: 768px) {
+  /* line 249, ../sass/style-j.scss */
+  .infoBOX .right {
+    width: 100%;
+    float: left;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 20px;
+  }
+}
+/* line 257, ../sass/style-j.scss */
+.infoBOX .right .repicepic {
+  float: left;
+  padding-right: 10px;
+}
+/* line 261, ../sass/style-j.scss */
+.infoBOX .right .dish {
+  color: #666;
+  font-size: 0.8125rem;
+}
+/* line 265, ../sass/style-j.scss */
+.infoBOX .right .recommend {
+  font-size: 0.8125rem;
+  color: #000;
+}
+/* line 269, ../sass/style-j.scss */
+.infoBOX .right a {
+  font-size: 0.75rem;
+  color: #990000;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* line 278, ../sass/style-j.scss */
+.buyBOX {
+  border-top: 1px solid #ccc;
+  margin: 10px 0 15px;
+  padding: 10px 0;
+}
+/* line 283, ../sass/style-j.scss */
+.buyBOX .price,
+.buyBOX .totprenum,
+.buyBOX .ordnum,
+.buyBOX .limitprenum {
+  color: #333;
+  font-size: 0.75rem;
+}
+
+/* line 292, ../sass/style-j.scss */
+.buyBOX ~ img, .repicepic, .title-contry > img, .suit, .scroeBOX > .right img {
+  width: initial !important;
+}
+
+/* line 295, ../sass/style-j.scss */
+.suit {
+  position: relative;
+  top: 2px;
+}
+
+/* line 301, ../sass/style-j.scss */
+.scroeBOX > .left > img {
+  max-width: 90px;
+  padding-right: 10px;
+  width: initial;
+}
+
+/* line 307, ../sass/style-j.scss */
+span.sp {
+  display: inline-block;
+  letter-spacing: 1.5rem;
+}
+
+/* line 311, ../sass/style-j.scss */
+span.redsp {
+  color: #b50000;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+/* line 318, ../sass/style-j.scss */
+.infolist {
+  width: 60px;
+  display: inline-block;
+  text-align: right;
+  color: #333;
+  font-size: 0.75rem;
+}
+
+/* line 328, ../sass/style-j.scss */
+.exp .exptitle {
+  min-width: 60px;
+  color: #333;
+  text-align: right;
+  font-size: 0.75rem;
+}
+/* line 334, ../sass/style-j.scss */
+.exp .exptext {
+  color: #666;
+  font-size: 0.75rem;
+}
+
+/* line 340, ../sass/style-j.scss */
+.float-right {
+  float: right;
+}
+@media (max-width: 768px) {
+  /* line 340, ../sass/style-j.scss */
+  .float-right {
+    float: none;
+  }
+}
+
+/* line 346, ../sass/style-j.scss */
+.r30 {
+  padding-left: 60px;
+  box-sizing: border-box;
+}
+@media (max-width: 768px) {
+  /* line 346, ../sass/style-j.scss */
+  .r30 {
+    padding: 0;
+  }
+}
+
+/* line 353, ../sass/style-j.scss */
+.onlytxt {
+  color: #666;
+  font-size: 0.75rem;
+  display: inherit;
+  padding-bottom: 10px;
+}
+
+/* line 360, ../sass/style-j.scss */
+.ov {
+  max-height: inherit;
+}
+
+/* line 363, ../sass/style-j.scss */
+.borderb {
+  border-bottom: 1px solid #ccc;
+}

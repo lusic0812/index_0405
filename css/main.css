@@ -1,0 +1,240 @@
+.carouselGallery-left,
+.carouselGallery-right {
+    font-size: 8rem;
+    color: yellow;
+    cursor: pointer;
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    z-index: 2;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.carouselGallery-left {
+    left: -45px;
+}
+
+.carouselGallery-right {
+    right: -120px;
+}
+
+.carouselGallery-left {
+    left: -45px;
+}
+
+.carouselGallery-left.disabled,
+.carouselGallery-right.disabled {
+    cursor: auto;
+    opacity: 0.3;
+}
+
+.carouselGallery-col-1 {
+    width: 100%;
+    margin: 0;
+    cursor: pointer;
+}
+
+.carouselGallery-col-1 {
+    background-position: center center;
+    float: left;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    overflow: hidden;
+}
+
+.carouselGallery-col-1 {
+    -webkit-box-shadow: 0 0 0 4px rgba(255, 255, 255, 1);
+    -moz-box-shadow: 0 0 0 4px rgba(255, 255, 255, 1);
+    box-shadow: 0 0 0 4px rgba(255, 255, 255, 1);
+}
+
+.carouselGallery-wrapper {
+    z-index: 1111;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    background-color: rgba(12, 12, 12, 0.8);
+    width: 100vw;
+    height: 100%;
+}
+
+.carouselGallery-wrapper > div {
+    z-index: 2;
+    position: absolute;
+    top: 52%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 100%;
+    width: auto;
+}
+
+.carouselGallery-scrollbox {
+    display: block;
+    // max-height - set by javascript
+    overflow-x: hidden;
+    overflow-y: auto;
+    padding: 30px;
+}
+
+.carouselGallery-modal .container {
+    padding: 0;
+    font-family: "Microsoft JhengHei", "Heiti TC", "WenQuanYi Zen Hei";
+    color: #000;
+    position: relative;
+    border-radius: 2px;
+    position: relative;
+    width: 800px;
+    background: #fff;
+}
+
+.carouselGallery-modal p {
+    font-weight: normal;
+    max-height: 290px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+
+.carouselGallery-modal-image,
+.carouselGallery-modal-text {
+    width: 25%;
+    float: left;
+    text-align: center;
+}
+
+.carouselGallery-modal-text {
+    text-align: left;
+}
+
+.carouselGallery-modal-text {
+    bottom: 0;
+    right: 0;
+    width: 75%;
+    height: 100%;
+    overflow-y: auto;
+    max-height: 500px;
+}
+
+.carouselGallery-modal-image img {
+    max-width: 150px;
+    width: 100%;
+}
+
+.carouselGallery-modal .iconscircle-cross {
+    cursor: pointer;
+    right: -60px;
+    top: -2px;
+    position: absolute;
+    z-index: 1;
+    font-size: 50px;
+    color: yellow;
+}
+
+@media (max-width: 1200px) {
+    .carouselGallery-modal .container {
+        padding-right: 0;
+    }
+    .carouselGallery-modal p {
+        max-height: 100%;
+    }
+    .carouselGallery-modal-text {
+        text-align: left;
+        position: relative;
+        bottom: auto;
+        right: auto;
+    }
+}
+
+@media (max-width: 767px) {
+    .carouselGallery-left,
+    .carouselGallery-right {
+        font-size: 4rem;
+    }
+    .carouselGallery-right {
+        right: -96px;
+        top: 65%;
+    }
+    .carouselGallery-left {
+        left: 40px;
+        top: 65%;
+    }
+    .carouselGallery-wrapper > div {
+        top: 5%;
+        transform: translate(-50%, 0%);
+        width: 80%;
+        padding: 40px;
+        height: 85vh;
+        overflow-y: auto;
+    }
+    .carouselGallery-modal .container {
+        width: 100%;
+    }
+    .carouselGallery-modal-image {
+        float: none;
+        margin: 0 auto;
+    }
+    .carouselGallery-modal-text {
+        overflow-y: inherit;
+        max-height: inherit;
+        width: 100%;
+    }
+    .carouselGallery-modal .iconscircle-cross {
+        font-size: 35px;
+        top: -39px;
+        right: -18px;
+    }
+}
+
+@font-face {
+    font-family: 'icons';
+    src: url('../icons/icons.eot');
+    src: url('../icons/icons.eot?#iefix') format('embedded-opentype'), url('../icons/icons.woff') format('woff'), url('../icons/icons.ttf') format('truetype'), url('../icons/icons.svg#icons') format('svg');
+}
+
+.icons {
+    font-family: 'icons';
+    speak: none;
+    position: relative;
+    top: 1px;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    // left:-25px;
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+// =================================
+// === Icons mixin =================
+// =================================
+.icons() {
+    font-family: 'icons';
+    speak: none;
+    position: relative;
+    top: 1px;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-arrow-left6:before {
+    content: "\102";
+}
+
+.icon-arrow-right6:before {
+    content: "\105";
+}
+
+.iconscircle-cross:before {
+    content: "\e61c";
+}
